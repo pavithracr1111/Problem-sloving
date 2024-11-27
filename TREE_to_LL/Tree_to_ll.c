@@ -1,7 +1,7 @@
 #include"main.h"
 
 struct ListNode* treeToLinkedList(struct TreeNode* root)
- {
+{
     if (root == NULL) return NULL;
     
     Queue_t* front = NULL;  // Front of the queue
