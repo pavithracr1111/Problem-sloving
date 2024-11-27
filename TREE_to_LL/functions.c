@@ -18,7 +18,6 @@ ListNode *createListNode(int data)
     new->next = NULL;
     return new;
 }
-#include "main.h"
 
 // Function to create a queue node
 Queue_t* createQueueNode(TreeNode* node) 
@@ -62,8 +61,6 @@ int isQueueEmpty(Queue_t* front)
 {
     return (front == NULL);
 }
-
-
 
 // Function to print the linked list
 void printLinkedList(struct ListNode *head)
