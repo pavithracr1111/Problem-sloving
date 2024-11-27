@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 void reverse(char *str, int i, int len) // function to reverse the word
 {
     while (i < len)
