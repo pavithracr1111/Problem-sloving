@@ -8,9 +8,11 @@ until all tree nodes are added to the linked list.
 
 #include"main.h"
 
-int main() {
+int main() 
+{
     // Create the binary tree
     struct TreeNode* root = createTreeNode(1);
+    
     root->left = createTreeNode(2);
     root->right = createTreeNode(3);
     root->left->left = createTreeNode(4);
